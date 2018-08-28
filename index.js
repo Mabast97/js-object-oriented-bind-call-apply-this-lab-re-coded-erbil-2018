@@ -10,3 +10,4 @@ function setThisWithApply(fn, thisValue, args){
   return fn.apply(thisValue, args);
 }
 
+returnNewFunctionOf
