@@ -12,4 +12,5 @@ function setThisWithApply(fn, thisValue, args){
 
 function returnNewFunctionOf(functionToBeCopied, thisValue){
   let newFunc = functionToBeCopied.Bind(thisValue);
+  return newFunc();
 }
